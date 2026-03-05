@@ -1,6 +1,6 @@
-# 🩺 Diabetes Prediction using Logistic Regression
+#  Diabetes Prediction using Logistic Regression
 
-## 📌 Project Overview
+##  Project Overview
 This project predicts whether a person has diabetes based on medical diagnostic measurements.  
 The model is trained using the Logistic Regression algorithm from Scikit-learn.
 
@@ -8,7 +8,7 @@ The dataset used is the **Pima Indians Diabetes Dataset**.
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 The dataset contains the following features:
 
 - Pregnancies
@@ -35,7 +35,7 @@ Target Variable:
 
 ---
 
-## ⚙️ Project Workflow
+##  Project Workflow
 
 1. Load the dataset
 2. Data preprocessing
@@ -46,9 +46,12 @@ Target Variable:
 
 ---
 
-## 🚀 Model Training
+Model Evaluation Metrics
+R² Score – Measures how well the model explains variance
 
-```python
-from sklearn.linear_model import LogisticRegression
-model = LogisticRegression()
-model.fit(X_train, y_train)
+RMSE – Measures prediction error
+
+Residual analysis performed to validate assumptions
+
+Visualization
+Actual vs Predicted Prices Graph
