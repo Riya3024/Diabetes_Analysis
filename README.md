@@ -46,12 +46,14 @@ Target Variable:
 
 ---
 
-Model Evaluation Metrics
+## Model Evaluation Metrics
+
 R² Score – Measures how well the model explains variance
 
 RMSE – Measures prediction error
 
 Residual analysis performed to validate assumptions
 
-Visualization
+## Visualization
+
 Actual vs Predicted Prices Graph
